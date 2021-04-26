@@ -1,0 +1,20 @@
+title: Best Bandhel Jewellers in Amritsar
+description: >-
+  We believe that we have developed a strong brand in our markets in north and
+  central India. We are one of the main jewelry organizations in India in the
+  coordinated adornments retail area, as indicated by the CARE Report known as
+  “BANDHEL”.
+template:
+  repo: best-bandhel-jewellers-in-amritsar-template
+  name: best-bandhel-jewellers-in-amritsar
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
